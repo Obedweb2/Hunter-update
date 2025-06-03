@@ -29,13 +29,13 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/db7508.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *ᏦᏆᏞᏞᎬᎡ ХᎷᎠ * 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/6kbj3i.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *ᎻႮΝͲᎬᎡ ХᎷᎠ * 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
 ┃◈┃• *Number* ${ownerNumber}
-┃◈┃• *Version*: 5.0.0 ᴼᴮᴱᴰX
+┃◈┃• *Version*: 5.5𝒐𝒃𝒆𝒅𝑿
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🅾🅱🅴🅳🆃🅴🅲🅷`, // Display the owner's details
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYT36/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/19rujw.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
