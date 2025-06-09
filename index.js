@@ -113,8 +113,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*HELLOW JEEPER CREEPER-XMD ႮՏᎬᎡՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏᏆᎷᏢᏞᎬ, ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬՏ \ud83c\udf8a, ᎷᎬᎬͲ ᎻႮΝͲᎡᎡ-ХᎷᎠ ᏔᎻᎪͲՏᎪᏢ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ ᎷᎬᎬͲ ᎻႮΝͲᎡᎡ-ХᎷᎠ  \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝ'Ͳ ҒϴᎡᏀᎬͲ Ͳϴ ՏͲᎪᎡ ᎪΝᎠ ҒϴᎡᏦ ᎡᎬᏢϴ \n\nhttps://github.com/Obedweb/Hunter-Xmd1\n\n> © Powered BY 🄾🄱🄴🄳 🅃🄴🄲🄷 \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/mdn0ez.jpg` }, caption: up })
+  let up = `*HELLOW JEEPER CREEPER-XMD ႮՏᎬᎡՏ! \ud83d\udc4b\ud83c\udffb* \n\n> ՏᏆᎷᏢᏞᎬ, ՏͲᎡᎪᏆᏀͲ ҒϴᎡᏔᎪᎡᎠ ᏴႮͲ ᏞϴᎪᎠᎬᎠ ᏔᏆͲᎻ ҒᎬᎪͲႮᎡᎬՏ \ud83c\udf8a, ᎷᎬᎬͲ JEEPERS CREEPER-XMD ᏔᎻᎪͲՏᎪᏢ ᏴϴͲ.\n\n *ͲᎻᎪΝᏦ ᎽϴႮ ҒϴᎡ ႮՏᏆΝᏀ ᎷᎬᎬͲ JEEPERS CREEPER-XMD  \ud83d\udea9* \n\n> ᎫϴᏆΝ ᏔᎻᎪͲՏᎪᏢᏢ ᏟᎻᎪΝΝᎬᏞ :- ⤵️\n \nhttps://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g\n\n- *YOUR PREFIX:* = ${prefix}\n\nᎠϴΝ'Ͳ ҒϴᎡᏀᎬͲ Ͳϴ ՏͲᎪᎡ ᎪΝᎠ ҒϴᎡᏦ ᎡᎬᏢϴ \n\nhttps://github.com/lovertoxic/JEEPERS-CREEPERS-XMD-.git\n\n> © Powered BY Bravin \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/okdpc9.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -769,7 +769,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("ᎻႮΝͲᎬᎡ ХᎷᎠ STARTED ✅");
+  res.send("JEEPERS CREEPER-XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
