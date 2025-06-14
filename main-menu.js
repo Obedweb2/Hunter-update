@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 🌐 Platform : *Heroku*
 ┃◈┃• 📦 Version : *4.0.0*
 ┃◈┃• ⏱️ Runtime : *${runtime(process.uptime())}*
-┃◈╰ᎻᎪᏙᎬ ҒႮΝ ᏔᏆͲᎻ ͲᎻᎬՏᎬ ᎡᎬᏞᏆᎪᏴᏞᎬ ᏟϴᎷᎷᎪΝᎠՏ!💫─────────────────┈⊷
+┃◈╰𝐄𝐱𝐩𝐥𝐨𝐫𝐞 𝐭𝐡𝐞𝐬𝐞 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐫𝐚𝐟𝐭𝐞𝐝 𝐛𝐲 𝐎𝐁𝐄𝐃𝐓𝐄𝐂𝐇!💫─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
 
 ╭━━〔 📥 *ᎠϴᏔΝᏞϴᎪᎠ ᎷᎬΝႮ* 〕━━┈⊷
